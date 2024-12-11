@@ -11,7 +11,7 @@ function Conversation() {
 
     return (
         <div id="conversation">
-            <div className="container">
+            <div className="conversation-container">
                 <h1 className="title">
                     +13853352336
                 </h1>

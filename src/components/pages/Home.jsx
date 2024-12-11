@@ -10,7 +10,7 @@ function Home() {
 
     return (
         <div id='home'>
-            <div className='container'>
+            <div className='home-container'>
                 <h1 className="title">
                     Welcome to the twilio demo
                 </h1>

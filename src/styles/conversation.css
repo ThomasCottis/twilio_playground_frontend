@@ -1,9 +1,9 @@
-#conversation div.container {
+#conversation div.conversation-container {
     display: flex;
     flex-direction: column;
     justify-content: top;
     height: 100vh;
-    padding: 0px 25px;
+    padding: 75px 25px;
     background-image: url('../assets/backgrounds/foliage_2.jpg');
     background-repeat: no-repeat;
     background-position: center;
