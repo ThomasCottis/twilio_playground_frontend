@@ -1,0 +1,12 @@
+#home div.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding:  0px 50px;
+    background-image: url('../assets/backgrounds/foliage_1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

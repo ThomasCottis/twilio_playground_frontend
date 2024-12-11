@@ -1,0 +1,38 @@
+
+* {
+    font-family: 'Nunito';
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+/* ROOT TEXT STYLES */
+.title {
+    font-size: 45px;
+    color: whitesmoke;
+    font-weight: 300;
+    text-align: center;
+}
+.subtitle {
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: 200;
+    text-align: center;
+}
+
+/* ROOT BUTTON STYLES */
+.button {
+    font-size: 21px;
+    background-color: #0070AB;
+    color: whitesmoke;
+    align-self: center;
+    border: none;
+    border-radius: 7px;
+    padding: 12px;
+    transition: all 0.2s ease-in-out;
+    
+}
+.button:hover {
+    background-color: #005785;
+    cursor: pointer;
+}
