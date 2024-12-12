@@ -3,9 +3,73 @@
     flex-direction: column;
     justify-content: top;
     height: 100vh;
-    padding: 75px 25px;
-    background-image: url('../assets/backgrounds/foliage_2.jpg');
+    padding: 75px 25px 25px 25px;
+    background-image: url('../assets/backgrounds/mountain.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+#conversation div.conversation-container .title {
+    align-self: flex-start;
+    font-size: 22px;
+}
+#conversation div.conversation-container div.chat-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px;
+    height: 100%;
+    overflow-y: auto;
+}
+#conversation div.conversation-container div.chat-container .message-container {
+    display: flex;
+    max-width: 80%;
+    padding: 12px;
+    border-radius: 12px;
+    margin: 4px 0px;
+    font-size: 18px;
+    line-height: 1.4;
+}
+#conversation div.conversation-container div.chat-container .message-container.in {
+    align-self: flex-start;
+    background-color: #8DCA00;
+}
+#conversation div.conversation-container div.chat-container .message-container.out {
+    align-self: flex-end;
+    background-color: #0070AB;
+}
+#conversation div.conversation-container div.chat-container .message-container p.message {
+    margin: 0;
+    color: whitesmoke;
+    word-wrap: break-word;
+}
+#conversation div.conversation-container div.chat-input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12px;
+}
+#conversation div.conversation-container div.chat-input-container .send-icon {
+    color: #00A7FF;
+    transition: all 0.2s ease-in-out;
+}
+#conversation div.conversation-container div.chat-input-container .send-icon:hover {
+    color: #0083A3;
+    cursor: pointer;
+}
+#conversation div.conversation-container div.chat-input-container .image-icon {
+    color: #FFB400;
+    transition: all 0.2s ease-in-out;
+}
+#conversation div.conversation-container div.chat-input-container .image-icon:hover {
+    color: #FFC63F;
+    cursor: pointer;
+}
+#conversation div.conversation-container div.chat-input-container input {
+    border: none;
+    border-radius: 12px;
+    flex: .9;
+    padding: 9px;
+    outline: none;
 }

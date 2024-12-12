@@ -1,31 +1,22 @@
-import { useNavigate } from "react-router-dom";
+import NavbarGenericComponent from "../NavbarGenericComponent";
+import Chat from "../Chat";
+import ChatInput from "../ChatInput";
 import "../../styles/root.css";
 import "../../styles/conversation.css";
 
 function Conversation() {
-    const navigate = useNavigate();
-
-    const handleBackNavigation = () => {
-        navigate("/");
-    }
-
     return (
-        <div id="conversation">
-            <div className="conversation-container">
-                <h1 className="title">
-                    +13853352336
-                </h1>
-                <div className="chat-container">
-                    <p className="subtitle">
-                        Chats here
-                    </p>
-                </div>
-                <button onClick={handleBackNavigation} className="button">
-                    Back
-                </button>
-            </div>
-        </div>
-    );
+			<>
+				<NavbarGenericComponent />
+				<div id='conversation'>
+					<div className='conversation-container'>
+						<h1 className='title'>+13853352336</h1>
+						<Chat />
+						<ChatInput />
+					</div>
+				</div>
+			</>
+		);
 }
 
 export default Conversation;
